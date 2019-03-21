@@ -1,0 +1,44 @@
+.main {
+    background-color: antiquewhite;
+    margin: 35px;
+    border: 1px solid black;
+    width: 1000px;
+    height: 700px;
+}
+
+.class1 {
+    width: 485px;
+    height: 650px;
+    float: left;
+    overflow: auto;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 7px;
+}
+
+.box{
+    height: 155px;
+    width: 261px;
+    float: left;
+    margin: 5px;
+}
+
+.p1 {
+    height: 155px;
+    width: 252px;
+    float: left;
+    margin: 5px;
+}
+
+.p2 {
+    margin: 3px;
+    height: 50px;
+    width: 80px;
+    float: left;
+}
+.box2{
+    margin: 5px;
+    height: 56px;
+    width: 261px;
+    float: left;
+}
