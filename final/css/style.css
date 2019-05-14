@@ -1,19 +1,23 @@
-.k1{
-  margin: 15px;
-  align-items: flex-start;  
+.k1 {
+    margin: 15px;
+    align-items: flex-start;
 }
-.jumbotron{
+
+.jumbotron {
     background-color: darkgrey;
     display: flex;
     justify-content: space-around;
     margin-bottom: 1px;
 }
-.text2{
-    margin:15px;
-}
-.cont1{
+
+.text2 {
     margin: 15px;
 }
+
+.cont1 {
+    margin: 15px;
+}
+
 .nav li {
     display: inline-block;
     color: white;
@@ -26,20 +30,28 @@
 li a {
     display: block;
     padding: 13px;
-    color: blue;
+    color: dodgerblue;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: blue;
-    color:white;
+    width: auto;
+    height: auto;
+    background: dodgerblue;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 25px;
+    ;
+    background-color: dodgerblue;
+    color: white;
     text-decoration: none;
 }
-.main{
+
+.main {
     margin-top: 5px;
 }
-.r1{
+
+.r1 {
     background-color: white;
-}
-.l1{
 }
