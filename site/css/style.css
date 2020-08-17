@@ -1,0 +1,58 @@
+.r1 {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background-color: chocolate;
+    border-radius: 20px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: chocolate;
+    margin: 10px;
+    border-radius: 20px;
+    list-style-type: none;
+}
+
+.hyperlinks {
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 2px solid black;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: "Arial"
+
+}
+
+.hyperlinks:hover {
+    background-color: brown;
+    text-decoration: none;
+    font-family: "Arial";
+
+
+}
+
+.hyperlinks:link {
+    text-decoration: none;
+}
+
+.h1 {
+    font-family: "Arial"
+}
+
+.images {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: raw;
+    width: px;
+}
