@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+</head>
+
+<body style="background-color:#e6e6e6 ">
+
+    <nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+        <div style="padding-bottom: 22px; background-color: #0066ff" class="w3-container w3-theme-d2">
+            <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+            <br>
+        </div>
+        <a class="w3-bar-item w3-button" href="index.html">Про нас</a>
+        <a class="w3-bar-item w3-button" href="index1.html">Кухні</a>
+        <a class="w3-bar-item w3-button" href="index2.html">Гардероби, шафи</a>
+        <a class="w3-bar-item w3-button" href="index3.html">Ванни</a>
+        <a class="w3-bar-item w3-button" href="index4.html">Контакти</a>
+    </nav>
+
+    <header style="margin-bottom: 10px" class="w3-bar w3-card w3-theme">
+        <button style="background-color: " class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+        <h1 align="center" class="w3-bar-item">Виготовлення меблів на Ваше замовлення </h1>
+    </header>
+
+
+
+
+    <div class="images">
+        <img width="45%" height="auto" src="IMG_20191005_180801.jpg" alt="">
+        <img width="45%" height="auto" src="IMG_20191114_130302.jpg" alt="">
+    </div>
+    <div class="images">
+        <img width="45%" height="auto" src="IMG_20200526_134054.jpg" alt="">
+        <img width="45%" height="auto" src="IMG_20191202_124004_1.jpg" alt="">
+    </div>
+    <div class="images">
+        <img width="45%" height="auto" src="IMG_20191114_125308.jpg" alt="">
+        <img width="45%" height="auto" src="IMG_20200613_220806.jpg" alt="">
+    </div>
+    <div class="images">
+        <img width="45%" height="auto" src="IMG-b4904e02d0b440fd5d059030eb6231c4-V.jpg" alt="">
+        <img width="45%" height="auto" src="IMG_20190521_194535.jpg" alt="">
+    </div>
+    <script>
+        closeSidebar();
+
+        function openSidebar() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeSidebar() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+    </script>
+</body>
+
+</html>
